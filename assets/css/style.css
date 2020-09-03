@@ -84,7 +84,7 @@ p {
     background-color: #2589bd;
 }
 
-aside {
+aside article {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -102,7 +102,7 @@ h3 {
 
 /* Combined content classes and class imgs into section. Removed individual class on h2 and listed under h2 */
 
-section {
+section article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,7 +111,7 @@ section {
     color: #ffffff;
 }
 
-section img {
+section article img {
     max-height: 200px;
 }
 
