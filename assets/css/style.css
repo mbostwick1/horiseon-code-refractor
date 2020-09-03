@@ -1,5 +1,5 @@
 
-/* GENERAL */
+/* HEADER/NAV: Modified to call by semantic and not class. Modified to include "nav"*/
 
 * {
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* HEADER/NAV: Modified to call by semantic and not class. Modified to include "nav" */
+/* HEADER/NAV: Modified to call by semantic and not class. Modified to include "nav"*/
 
 header {
     padding: 20px;
@@ -60,6 +60,12 @@ a {
 
 /* SECTION: Combined content classes and class imgs into section. Removed individual class on h2 and listed under h2. Moved above aside to flow as the .html doc */
 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 section article {
     margin-bottom: 20px;
     padding: 50px;
@@ -93,12 +99,6 @@ p {
 }
 
 /* ASIDE: Combined benefits class and class imgs. Removed individual class on h3 and listed under h3. Moved below aside to flow as the .html doc*/
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
 .benefits {
     margin-right: 20px;
