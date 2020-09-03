@@ -1,3 +1,6 @@
+
+/* GENERAL */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +11,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* HEADER: Modified to call by semantic and not class. */
+/* HEADER/NAV: Modified to call by semantic and not class. Modified to include "nav" */
 
 header {
     padding: 20px;
