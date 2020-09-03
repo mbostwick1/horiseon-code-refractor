@@ -8,23 +8,25 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* HEADER: Modified to call by semantic and not class. */
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +34,7 @@ body {
     font-size: 20px;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -42,9 +44,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* FIGURE */
 
 .hero {
     height: 800px;
@@ -53,6 +53,21 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* SECTION: Combined content classes and class imgs into section. Removed individual class on h2 and listed under h2. Moved above aside to flow as the .html doc */
+
+section article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+section article img {
+    max-height: 200px;
 }
 
 .float-left {
@@ -65,7 +80,16 @@ p {
     margin-left: 25px;
 }
 
-/* Combined benefits class and class imgs. Removed individual class on h3 and listed under h3 */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* ASIDE: Combined benefits class and class imgs. Removed individual class on h3 and listed under h3. Moved below aside to flow as the .html doc*/
 
 .content {
     width: 75%;
@@ -100,25 +124,7 @@ h3 {
     max-width: 150px;
 }
 
-/* Combined content classes and class imgs into section. Removed individual class on h2 and listed under h2 */
-
-section article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-section article img {
-    max-height: 200px;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* FOOTER */
 
 footer {
     padding: 30px;
