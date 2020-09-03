@@ -65,6 +65,8 @@ p {
     margin-left: 25px;
 }
 
+/* Combined benefits class and class imgs. Removed individual class on h3 and listed under h3 */
+
 .content {
     width: 75%;
     display: inline-block;
@@ -97,6 +99,8 @@ h3 {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Combined content classes and class imgs into section. Removed individual class on h2 and listed under h2 */
 
 section {
     margin-bottom: 20px;
