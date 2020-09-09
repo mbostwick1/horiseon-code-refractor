@@ -17,4 +17,8 @@
  
  I also added commented sections for each semantic and organized in the same flow as the .html. This helps with readability.
  
- 
+ ## Screenshots
+
+ ![top site](x_topsite.jpg)
+ ![lower site](x_lowersite.jpg)
+
